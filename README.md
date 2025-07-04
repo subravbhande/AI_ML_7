@@ -20,7 +20,7 @@ This project is part of an AI/ML internship (Task 7), where we apply Support Vec
 - `medv`: Median value of owner-occupied homes (target)
 - We convert this into a **binary classification problem**:
   - `1`: Expensive (`medv > median`)
-  - `0`: Cheap (`medv <= median`)
+  - `0`: Cheap (`medv ≤ median`)
 
 ---
 
@@ -45,24 +45,36 @@ This project is part of an AI/ML internship (Task 7), where we apply Support Vec
   "kernel": "rbf"
 }
 
-##📊 Results
-🎯 Accuracy (Test Set): 86%
-🔁 Cross-Validation Mean Accuracy: 81.21%
 
+
+
+
+📊 Results
+🎯 Accuracy (Test Set): 86%
+
+🔁 Cross-Validation Mean Accuracy: 81.21%
 
 📌 Confusion Matrix
 Predicted Cheap (0)	Predicted Expensive (1)
-Actual Cheap	   74   	18
-Actual Expensive	4	    56
+Actual Cheap	74	18
+Actual Expensive	4	56
 
-# 📃 Classification Report
+📃 Classification Report
 Class	Precision	Recall	F1-score	Support
 0 (Cheap)	0.95	0.80	0.87	92
 1 (Expensive)	0.76	0.93	0.84	60
 
 
 
-##💻 Tech Stack
+
+💻 Tech Stack
+Python 3.13+
+
+Pandas, NumPy
+
+Scikit-learn
+
+Matplotlib (optional for plotting)💻 Tech Stack
 Python 3.13+
 
 Pandas, NumPy
@@ -70,12 +82,20 @@ Pandas, NumPy
 Scikit-learn
 
 Matplotlib (optional for plotting)
-🚀 How to Run
 
+
+
+
+🚀 How to Run
 # 1. Clone this repository or download the files
 # 2. Install required packages
 pip install -r requirements.txt
 
 # 3. Run the Python script
 python AL_ML_7.PY
+
+
+
+
+
 
