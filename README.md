@@ -36,6 +36,10 @@ This project is part of an AI/ML internship (Task 7), where we apply Support Vec
 
 ---
 
+
+---
+
+
 ## ✅ Best Hyperparameters (via GridSearchCV)
 
 ```json
@@ -44,6 +48,8 @@ This project is part of an AI/ML internship (Task 7), where we apply Support Vec
   "gamma": 0.1,
   "kernel": "rbf"
 }
+```  
+
 
 
 
