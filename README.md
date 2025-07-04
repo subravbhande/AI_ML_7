@@ -44,20 +44,25 @@ This project is part of an AI/ML internship (Task 7), where we apply Support Vec
   "gamma": 0.1,
   "kernel": "rbf"
 }
-📊 Results
+
+##📊 Results
 🎯 Accuracy (Test Set): 86%
 🔁 Cross-Validation Mean Accuracy: 81.21%
+
+
 📌 Confusion Matrix
 Predicted Cheap (0)	Predicted Expensive (1)
 Actual Cheap	   74   	18
 Actual Expensive	4	    56
 
-📃 Classification Report
+# 📃 Classification Report
 Class	Precision	Recall	F1-score	Support
 0 (Cheap)	0.95	0.80	0.87	92
 1 (Expensive)	0.76	0.93	0.84	60
 
-💻 Tech Stack
+
+
+##💻 Tech Stack
 Python 3.13+
 
 Pandas, NumPy
