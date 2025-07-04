@@ -52,7 +52,10 @@ This project is part of an AI/ML internship (Task 7), where we apply Support Vec
 
 
 
+📊 Results
+🎯 Accuracy (Test Set): 86%
 
+🔁 Cross-Validation Mean Accuracy: 81.21%
 
 
 
@@ -85,10 +88,7 @@ python AL_ML_7.PY
 
 
 
-📊 Results
-🎯 Accuracy (Test Set): 86%
 
-🔁 Cross-Validation Mean Accuracy: 81.21%
 
 
 
